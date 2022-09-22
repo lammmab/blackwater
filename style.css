@@ -1,3 +1,5 @@
 p, a, div {
-    display: inline;
+    display: flex;
+    justify-content: center; /* align item horizontally */
+    align-items: center; /* align item vertically */
 }
