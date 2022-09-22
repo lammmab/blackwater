@@ -1,6 +1,19 @@
-p, a, div {
+.contents-container {
     display: flex;
     white-space: pre-wrap;
     justify-content: center; /* align item horizontally */
     align-items: center; /* align item vertically */
+}
+
+body {
+    background-color: #312561;
+}
+
+a {
+    text-decoration: none;
+    color: white;
+}
+
+.title {
+    color: #C17400;
 }
