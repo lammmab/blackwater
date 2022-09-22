@@ -1,5 +1,6 @@
 p, a, div {
     display: flex;
+    white-space: pre-wrap;
     justify-content: center; /* align item horizontally */
     align-items: center; /* align item vertically */
 }
