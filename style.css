@@ -1,4 +1,4 @@
-.contents-container {
+.title, .links {
     display: flex;
     white-space: pre-wrap;
     justify-content: center; /* align item horizontally */
