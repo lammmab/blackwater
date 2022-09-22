@@ -17,3 +17,14 @@ a {
 .title {
     color: #C17400;
 }
+
+.line {
+    animation-name: slideIn;
+    animation-duration: 4s;
+}
+
+@keyframes slideIn {
+    from {opacity: 0; offset-position: 0;}
+    to {opacity: 1;}
+  }
+  
