@@ -3,9 +3,10 @@
     display: flex;
     white-space: pre-wrap;
     justify-content: center;
-    /* align item horizontally */
     align-items: center;
-    /* align item vertically */
+    margin-top: auto;
+    height: 100%;
+    margin-bottom: auto;
 }
 
 body {
@@ -15,6 +16,10 @@ body {
 a {
     text-decoration: none;
     color: white;
+}
+
+div {
+    max-width: auto;
 }
 
 .title {
@@ -34,8 +39,4 @@ a {
     to {
         opacity: 1;
     }
-}
-
-.contents-container {
-    height: auto;
 }
