@@ -1,8 +1,11 @@
-.title, .links {
+.title,
+.links {
     display: flex;
     white-space: pre-wrap;
-    justify-content: center; /* align item horizontally */
-    align-items: center; /* align item vertically */
+    justify-content: center;
+    /* align item horizontally */
+    align-items: center;
+    /* align item vertically */
 }
 
 body {
@@ -24,7 +27,15 @@ a {
 }
 
 @keyframes slideIn {
-    from {opacity: 0; offset-position: 0;}
-    to {opacity: 1;}
-  }
-  
+    from {
+        opacity: 0;
+        offset-position: 0;
+    }
+    to {
+        opacity: 1;
+    }
+}
+
+.contents-container {
+    height: auto;
+}
